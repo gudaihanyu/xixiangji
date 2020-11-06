@@ -15,4 +15,4 @@ jobs:
     steps:
       - uses: seanzhengw/sphinx-pages@master
         with:
-          github_token: ${{ secrets.DEV_TOKEN }}
+          github_token: ${{ secrets.GH_PAGES_TOKEN }}
